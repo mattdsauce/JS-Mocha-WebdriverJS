@@ -57,7 +57,7 @@ test.describe('Google Search', function() {
     var searchBox = driver.findElement(webdriver.By.name('q'));
     searchBox.sendKeys('webdriver');
     searchBox.getAttribute('value').then(function(value) {
-      assert.equal(value, 'webdriver');
+      assert.equal(value, 'sausage');
     });
 
   });

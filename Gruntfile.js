@@ -30,6 +30,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('run_XP_firefox_42', ['shell:runTests:XP:firefox:42']);
     grunt.registerTask('run_Linux_chrome_45', ['shell:runTests:Linux:chrome:45']);
-    grunt.registerTask('run_Windows10_edge', ['shell:runTests:"Windows 10":MicrosoftEdge:20.10240']);
+    grunt.registerTask('run_Windows10_edge', ['shell:runTests:"Windows 10":MicrosoftEdge:14.14393']);
     grunt.registerTask('run_Windows7_ie_11', ['shell:runTests:"Windows 7":"internet explorer":11']);
 };
